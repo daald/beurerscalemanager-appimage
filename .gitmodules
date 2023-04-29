@@ -1,0 +1,3 @@
+[submodule "BeurerScaleManager"]
+	path = BeurerScaleManager
+	url = https://github.com/Urban82/BeurerScaleManager.git

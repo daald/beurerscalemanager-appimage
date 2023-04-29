@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Beurer Scale Manager
+Comment=Transfers data from Beurer scales
+Exec=BeurerScaleManager-launcher
+Terminal=false
+Type=Application
+Icon=BeurerScaleManager
+Categories=Qt;Utility;

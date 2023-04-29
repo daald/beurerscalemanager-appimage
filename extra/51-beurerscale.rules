@@ -1,0 +1,3 @@
+#/etc/udev/rules.d/51-beurerscale.rules
+
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="04d9", ATTRS{idProduct}=="8010", GROUP="plugdev", MODE="0664"
