@@ -6,8 +6,8 @@ RUN apt-get update \
         cmake \
         libqt4-dev \
         libqt4-dev-bin \
+        libqt4-sql-sqlite \
         libusb-1.0-0-dev \
         pkg-config \
         qt4-qmake \
-		libqt4-sql-sqlite \
  && apt-get clean

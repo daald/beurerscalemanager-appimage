@@ -1,8 +1,10 @@
 #!/bin/sh
 
+mkdir -p build
+
 docker run --rm -ti \
-  -v "$(pwd)/BeurerScaleManager:/workspace" \
-  -v "$(pwd)/tools:/tools:ro" \
-  -v "$(pwd)/extra:/extra:ro" \
+  -v "$(pwd):/workspace/src:ro" \
+  -v "$(pwd)/build:/workspace/build" \
   -w '/workspace' \
+  -u "$(id -u)" \
   beurer-buildenv-2023 bash -i
